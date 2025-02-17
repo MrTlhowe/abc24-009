@@ -1,10 +1,19 @@
-main a[href^="mailto:"] {
+body {
 
-color: #ff5722;
+font-family: Arial, sans-serif;
 
-font-weight: bold;
-  
-  header {
+color: #333;
+
+background-color: #f9f9f9;
+
+margin: 0;
+
+padding: 0;
+
+line-height: 1.6;
+
+}
+header {
 
 background-color: #4CAF50;
 
@@ -34,12 +43,11 @@ margin: 0 10px;
 
 }
 
+
 nav a:hover {
 
-text-decoration: underline;
-
-}
-main {
+text-decoration: underl
+  main {
 
 padding: 20px;
 
@@ -78,7 +86,7 @@ bottom: 0;
 width: 100%;
 
 }
-p {
+  p {
 
 font-size: 1.1em;
 
@@ -99,14 +107,13 @@ a:hover {
 text-decoration: underline;
 
 }
-
   img {
 
 border: 5px solid #4CAF50;
 
 border-radius: 10px;
-  }
-  
+
+}
   main a[href^="mailto:"] {
 
 color: #ff5722;
