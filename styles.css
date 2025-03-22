@@ -23,15 +23,13 @@ color: white;
 
 padding: 20px;
 
-align-items: center;
+text-align: left;
 
 display: flex;
 
-Position: relative;
+flex-direction: column;
 
-justify-content: flex-start; /* Push image to the left */
-   
-text-align: left;
+align-items: flex-start; 
 
 }
 
