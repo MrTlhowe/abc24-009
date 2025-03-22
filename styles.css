@@ -23,11 +23,15 @@ color: white;
 
 padding: 20px;
 
-text-align: center;
+align-items: center;
 
 display: flex;
 
 Position: relative;
+
+justify-content: flex-start; /* Push image to the left */
+   
+text-align: left;
 
 }
 
