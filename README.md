@@ -1,2 +1,2 @@
 # helloworld
-This repository is about Mr. Tlhowe
+This repository is about footy accessories website
