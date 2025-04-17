@@ -27,7 +27,7 @@ header {
 
 header img {
   max-height: 500px;
-  height: auto;
+  height: 100px;
   margin-right: 5px;
   margin-top: 0;
 }
@@ -157,7 +157,7 @@ header {
 
 header img {
   max-height: 200px;
-  height: auto;
+  height: 100px;
   margin-right: 5px;
   margin-top: 0;
 }
