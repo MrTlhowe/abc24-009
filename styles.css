@@ -94,12 +94,12 @@ footer {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 2.2em;
 }
 
 a {
   color: #FF0000;
-  text-decoration: none;
+  text-decoration: bold;
 }
 
 a:hover {
