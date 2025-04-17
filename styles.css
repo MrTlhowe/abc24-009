@@ -162,6 +162,38 @@ border-radius: 10px;
 }
   main a[href^="mailto:"] {
 
+/* Make sure layout containers don't overflow */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* prevents horizontal scroll */
+}
+
+/* Make images and videos scale */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make fixed-width elements flexible */
+[class*="container"], [class*="content"], [class*="box"], [class*="section"] {
+  width: 100%;
+  max-width: 1200px; /* or whatever your current max width is */
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Simple mobile text scaling */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
 color: #ff5722;
 
 font-weight: bold;
