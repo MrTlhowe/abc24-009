@@ -253,6 +253,42 @@ main a[href^="mailto:"] {
 /* Optional — prevent any tiny overflow */
 img, video {
   max-width: 100%;
+
+  .product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 3px solid #FF0000;
+  margin-bottom: 10px;
+}
+
+.product-item a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.product-item a:hover {
+  text-decoration: underline;
+}
+
   height: auto;
 }
 
