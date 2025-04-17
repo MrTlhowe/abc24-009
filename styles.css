@@ -257,7 +257,7 @@ img, video {
   .product-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   gap: 30px;
   margin-top: 40px;
   text-align: center;
