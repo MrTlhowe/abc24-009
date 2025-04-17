@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $to = "thutotlhowe5@gmail.com";
     $subject = "New Feedback Submission";
     $headers = "From: " . $email . "\r\n" .
-               "Reply-To: " . $email . "\r\n" .
+               "Reply-To: "thutotlhowe5@gmail.com"\r\n" .
                "Content-Type: text/plain; charset=UTF-8\r\n";
 
     if (mail($to, $subject, $message, $headers)) {
