@@ -1,13 +1,14 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST")
-{
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
-    // Set the recipient email.
     $to = "thutotlhowe5@gmail.com";
+    $subject = "New Feedback Submission";
+    $headers = "From: " . $email . "\r\n" .
+               "Reply-To: " . $email . "\r\n" .
+               "Content-Type: text/plain; charset=UTF-8\r\n";
 
-    // Send the email
     if (mail($to, $subject, $message, $headers)) {
         echo "Feedback successfully sent!";
     } else {
@@ -15,3 +16,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     }
 }
 ?>
+
